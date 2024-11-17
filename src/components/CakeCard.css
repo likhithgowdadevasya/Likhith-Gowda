@@ -1,0 +1,33 @@
+.cake-card {
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s;
+    background-color: white;
+}
+
+.cake-card:hover {
+    transform: translateY(-5px);
+}
+
+.cake-image {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.add-to-cart-btn {
+    background-color: #ff6363;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #e55353;
+}
